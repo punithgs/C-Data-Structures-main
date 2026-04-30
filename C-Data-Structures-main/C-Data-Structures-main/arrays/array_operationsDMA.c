@@ -150,3 +150,5 @@ void deleteValue(int *n,int *arr,int key){
     if (pos>=0) deleteIndex(n,arr,pos);
     else printf("%d does not exist in array :(\n",key);
 }
+Array in C Programming 
+
