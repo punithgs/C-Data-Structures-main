@@ -81,10 +81,6 @@ void main(){
         }
     
     }
-    
-
-
-
 }
 
 void read(int n,int *arr){
