@@ -88,8 +88,6 @@ void read(int n,int *arr){
     for(int i=0;i<n;i++){
         scanf("%d",arr+i);
     }
-
-
 }
 void display(int n, int *arr){
     printf("Stored array >> [");
@@ -97,9 +95,7 @@ void display(int n, int *arr){
         printf(" %d , ",*(arr+i));
     }
     printf("]\n");
-
 }
-
 
 int search(int n, int *arr, int key){
     for(int i=0;i<n;i++){
@@ -137,8 +133,6 @@ void insert(int *n,int *arr,int pos,int key){
     }
     *(arr+pos) = key;
     (*n)++;
-    
-
 }
 
 void deleteIndex(int *n,int *arr,int pos){
@@ -156,24 +150,3 @@ void deleteValue(int *n,int *arr,int key){
     if (pos>=0) deleteIndex(n,arr,pos);
     else printf("%d does not exist in array :(\n",key);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
