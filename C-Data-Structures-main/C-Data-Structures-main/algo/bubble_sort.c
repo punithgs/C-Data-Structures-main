@@ -32,3 +32,4 @@ void main(){
     }
     printf("]\n");
 }
+//bubble short algorithm
